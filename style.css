@@ -1,0 +1,98 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #050210;
+
+}
+
+.circle {
+
+    position: relative;
+    width: 60vh;
+    height: 60vh;
+    background: linear-gradient(#fb5dad, #55fb9f, #b97aff);
+    border-radius: 50%;
+    animation: animate 0.75s linear infinite;
+
+}
+
+@keyframes animate {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
+.circle::after {
+
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    border-radius: 50%;
+    background-color: #00011a;
+    animation: animate2 1s linear infinite;
+
+}
+
+@keyframes animate2 {
+    
+    0% {
+        box-shadow: inset 0 0 10px 170px #00000a;
+    }
+
+    50% {
+        box-shadow: inset 0 0 10px 85px #00000f;
+    }
+
+    100% {
+        box-shadow: inset 0 0 10px 0px #000014;
+    }
+
+}
+
+
+.circle span {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#fb5dad, #55fb9f, #b97aff);
+    border-radius: 50%;
+
+}
+
+.circle span:nth-child(1) {
+
+    filter: blur(10px);
+
+}
+
+.circle span:nth-child(2) {
+
+    filter: blur(15px);
+
+}
+
+.circle span:nth-child(3) {
+
+    filter: blur(20px);
+
+}
+
+.circle span:nth-child(4) {
+
+    filter: blur(25px);
+    
+}
