@@ -36,10 +36,10 @@ body {
 
     content: '';
     position: absolute;
-    top: 20px;
-    right: 20px;
-    bottom: 20px;
-    left: 20px;
+    top: 25px;
+    right: 25px;
+    bottom: 25px;
+    left: 25px;
     border-radius: 50%;
     background-color: #00011a;
     animation: animate2 1s linear infinite;
@@ -47,7 +47,7 @@ body {
 }
 
 @keyframes animate2 {
-    
+
     0% {
         box-shadow: inset 0 0 10px 170px #00000a;
     }
@@ -69,30 +69,31 @@ body {
     width: 100%;
     height: 100%;
     background: linear-gradient(#fb5dad, #55fb9f, #b97aff);
+    opacity: 0.3;
     border-radius: 50%;
 
 }
 
 .circle span:nth-child(1) {
 
-    filter: blur(5px);
+    filter: blur(25px);
 
 }
 
 .circle span:nth-child(2) {
 
-    filter: blur(10px);
+    filter: blur(30px);
 
 }
 
 .circle span:nth-child(3) {
 
-    filter: blur(15px);
+    filter: blur(35px);
 
 }
 
 .circle span:nth-child(4) {
 
-    filter: blur(20px);
-    
+    filter: blur(40px);
+
 }
