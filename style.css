@@ -76,24 +76,24 @@ body {
 
 .circle span:nth-child(1) {
 
-    filter: blur(25px);
+    filter: blur(50px);
 
 }
 
 .circle span:nth-child(2) {
 
-    filter: blur(30px);
+    filter: blur(55px);
 
 }
 
 .circle span:nth-child(3) {
 
-    filter: blur(35px);
+    filter: blur(60px);
 
 }
 
 .circle span:nth-child(4) {
 
-    filter: blur(40px);
+    filter: blur(65px);
 
 }
